@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HalamanDua"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+    <Button
+            android:id="@+id/balok"
+            android:layout_marginTop="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:clickable="true"
+            android:text="Bangun Balok"/>
+
+    <Button
+            android:id="@+id/kubus"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:clickable="true"
+            android:text="Bangun Kubus"/>
+
+    <Button
+            android:id="@+id/bola"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:clickable="true"
+            android:text="Bangun Bola"/>
+
+    <Button
+            android:id="@+id/kerucut"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:clickable="true"
+            android:text="Bangun Kerucut"/>
+
+    <Button
+            android:id="@+id/tabung"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:clickable="true"
+            android:text="Bangun Tabung"/>
+
+</LinearLayout>

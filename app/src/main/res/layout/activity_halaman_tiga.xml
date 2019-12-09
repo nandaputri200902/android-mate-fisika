@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".halaman_tiga"
+        android:orientation="vertical"
+        android:background="@drawable/background">
+
+    <Button
+            android:id="@+id/massajenis"
+            android:layout_marginTop="150dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:clickable="true"
+            android:text="Massa Jenis"/>
+
+    <Button
+            android:id="@+id/hukumohm"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:clickable="true"
+            android:text="Hukum Ohm"/>
+
+    <Button
+            android:id="@+id/momentum"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:clickable="true"
+            android:text="Momentum"/>
+
+    <Button
+            android:id="@+id/energikinetik"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:clickable="true"
+            android:text="Energi Kinetik"/>
+
+    <Button
+            android:id="@+id/energipotensial"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15sp"
+            android:clickable="true"
+            android:text="Energi Potensial"/>
+
+</LinearLayout>
